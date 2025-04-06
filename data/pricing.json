@@ -1,0 +1,2647 @@
+{
+  "pricingTiers": [
+    {
+      "patientConditionInvites": 600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 9000,
+          "monthlyPrice": 750,
+          "clinicalPharmacists": 0.1,
+          "careCoordinators": 0.05,
+          "appointmentsSaved": 1200
+        },
+        "core": {
+          "totalPrice": 15000,
+          "monthlyPrice": 1250,
+          "clinicalPharmacists": 0.2,
+          "careCoordinators": 0.05,
+          "appointmentsSaved": 1320
+        },
+        "complete": {
+          "totalPrice": 16500,
+          "monthlyPrice": 1375,
+          "clinicalPharmacists": 0.2,
+          "careCoordinators": 0.05,
+          "appointmentsSaved": 1440
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 12000,
+          "monthlyPrice": 1000,
+          "clinicalPharmacists": 0.15,
+          "careCoordinators": 0.05,
+          "appointmentsSaved": 1600
+        },
+        "core": {
+          "totalPrice": 20000,
+          "monthlyPrice": 1667,
+          "clinicalPharmacists": 0.25,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 1760
+        },
+        "complete": {
+          "totalPrice": 22000,
+          "monthlyPrice": 1833,
+          "clinicalPharmacists": 0.3,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 1920
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 1000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 15000,
+          "monthlyPrice": 1250,
+          "clinicalPharmacists": 0.2,
+          "careCoordinators": 0.05,
+          "appointmentsSaved": 2000
+        },
+        "core": {
+          "totalPrice": 25000,
+          "monthlyPrice": 2083,
+          "clinicalPharmacists": 0.3,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 2200
+        },
+        "complete": {
+          "totalPrice": 27500,
+          "monthlyPrice": 2292,
+          "clinicalPharmacists": 0.35,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 2400
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 1200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 18000,
+          "monthlyPrice": 1500,
+          "clinicalPharmacists": 0.25,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 2400
+        },
+        "core": {
+          "totalPrice": 30000,
+          "monthlyPrice": 2500,
+          "clinicalPharmacists": 0.4,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 2640
+        },
+        "complete": {
+          "totalPrice": 33000,
+          "monthlyPrice": 2750,
+          "clinicalPharmacists": 0.4,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 2880
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 1400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 21000,
+          "monthlyPrice": 1750,
+          "clinicalPharmacists": 0.25,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 2800
+        },
+        "core": {
+          "totalPrice": 35000,
+          "monthlyPrice": 2917,
+          "clinicalPharmacists": 0.45,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 3080
+        },
+        "complete": {
+          "totalPrice": 38500,
+          "monthlyPrice": 3208,
+          "clinicalPharmacists": 0.5,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 3360
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 1600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 24000,
+          "monthlyPrice": 2000,
+          "clinicalPharmacists": 0.3,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 3200
+        },
+        "core": {
+          "totalPrice": 40000,
+          "monthlyPrice": 3333,
+          "clinicalPharmacists": 0.5,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 3520
+        },
+        "complete": {
+          "totalPrice": 44000,
+          "monthlyPrice": 3667,
+          "clinicalPharmacists": 0.55,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 3840
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 1800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 27000,
+          "monthlyPrice": 2250,
+          "clinicalPharmacists": 0.35,
+          "careCoordinators": 0.1,
+          "appointmentsSaved": 3600
+        },
+        "core": {
+          "totalPrice": 45000,
+          "monthlyPrice": 3750,
+          "clinicalPharmacists": 0.55,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 3960
+        },
+        "complete": {
+          "totalPrice": 49500,
+          "monthlyPrice": 4125,
+          "clinicalPharmacists": 0.65,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 4320
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 2000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 30000,
+          "monthlyPrice": 2500,
+          "clinicalPharmacists": 0.4,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 4000
+        },
+        "core": {
+          "totalPrice": 50000,
+          "monthlyPrice": 4167,
+          "clinicalPharmacists": 0.65,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 4400
+        },
+        "complete": {
+          "totalPrice": 55000,
+          "monthlyPrice": 4583,
+          "clinicalPharmacists": 0.7,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 4800
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 2200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 33000,
+          "monthlyPrice": 2750,
+          "clinicalPharmacists": 0.4,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 4400
+        },
+        "core": {
+          "totalPrice": 55000,
+          "monthlyPrice": 4583,
+          "clinicalPharmacists": 0.7,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 4840
+        },
+        "complete": {
+          "totalPrice": 60500,
+          "monthlyPrice": 5042,
+          "clinicalPharmacists": 0.75,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 5280
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 2400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 36000,
+          "monthlyPrice": 3000,
+          "clinicalPharmacists": 0.45,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 4800
+        },
+        "core": {
+          "totalPrice": 60000,
+          "monthlyPrice": 5000,
+          "clinicalPharmacists": 0.75,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 5280
+        },
+        "complete": {
+          "totalPrice": 66000,
+          "monthlyPrice": 5500,
+          "clinicalPharmacists": 0.85,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 5760
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 2600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 39000,
+          "monthlyPrice": 3250,
+          "clinicalPharmacists": 0.5,
+          "careCoordinators": 0.15,
+          "appointmentsSaved": 5200
+        },
+        "core": {
+          "totalPrice": 65000,
+          "monthlyPrice": 5417,
+          "clinicalPharmacists": 0.8,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 5720
+        },
+        "complete": {
+          "totalPrice": 71500,
+          "monthlyPrice": 5958,
+          "clinicalPharmacists": 0.9,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 6240
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 2800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 42000,
+          "monthlyPrice": 3500,
+          "clinicalPharmacists": 0.55,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 5600
+        },
+        "core": {
+          "totalPrice": 70000,
+          "monthlyPrice": 5833,
+          "clinicalPharmacists": 0.9,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 6160
+        },
+        "complete": {
+          "totalPrice": 77000,
+          "monthlyPrice": 6417,
+          "clinicalPharmacists": 0.95,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 6720
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 3000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 45000,
+          "monthlyPrice": 3750,
+          "clinicalPharmacists": 0.55,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 6000
+        },
+        "core": {
+          "totalPrice": 75000,
+          "monthlyPrice": 6250,
+          "clinicalPharmacists": 0.95,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 6600
+        },
+        "complete": {
+          "totalPrice": 82500,
+          "monthlyPrice": 6875,
+          "clinicalPharmacists": 1.05,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 7200
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 3200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 48000,
+          "monthlyPrice": 4000,
+          "clinicalPharmacists": 0.6,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 6400
+        },
+        "core": {
+          "totalPrice": 80000,
+          "monthlyPrice": 6667,
+          "clinicalPharmacists": 1,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 7040
+        },
+        "complete": {
+          "totalPrice": 88000,
+          "monthlyPrice": 7333,
+          "clinicalPharmacists": 1.1,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 7680
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 3400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 51000,
+          "monthlyPrice": 4250,
+          "clinicalPharmacists": 0.65,
+          "careCoordinators": 0.2,
+          "appointmentsSaved": 6800
+        },
+        "core": {
+          "totalPrice": 85000,
+          "monthlyPrice": 7083,
+          "clinicalPharmacists": 1.1,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 7480
+        },
+        "complete": {
+          "totalPrice": 93500,
+          "monthlyPrice": 7792,
+          "clinicalPharmacists": 1.2,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 8160
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 3600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 54000,
+          "monthlyPrice": 4500,
+          "clinicalPharmacists": 0.7,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 7200
+        },
+        "core": {
+          "totalPrice": 90000,
+          "monthlyPrice": 7500,
+          "clinicalPharmacists": 1.15,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 7920
+        },
+        "complete": {
+          "totalPrice": 99000,
+          "monthlyPrice": 8250,
+          "clinicalPharmacists": 1.25,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 8640
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 3800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 57000,
+          "monthlyPrice": 4750,
+          "clinicalPharmacists": 0.7,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 7600
+        },
+        "core": {
+          "totalPrice": 95000,
+          "monthlyPrice": 7917,
+          "clinicalPharmacists": 1.2,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 8360
+        },
+        "complete": {
+          "totalPrice": 104500,
+          "monthlyPrice": 8708,
+          "clinicalPharmacists": 1.3,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 9120
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 4000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 60000,
+          "monthlyPrice": 5000,
+          "clinicalPharmacists": 0.75,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 8000
+        },
+        "core": {
+          "totalPrice": 100000,
+          "monthlyPrice": 8333,
+          "clinicalPharmacists": 1.25,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 8800
+        },
+        "complete": {
+          "totalPrice": 110000,
+          "monthlyPrice": 9167,
+          "clinicalPharmacists": 1.4,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 9600
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 4200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 63000,
+          "monthlyPrice": 5250,
+          "clinicalPharmacists": 0.8,
+          "careCoordinators": 0.25,
+          "appointmentsSaved": 8400
+        },
+        "core": {
+          "totalPrice": 105000,
+          "monthlyPrice": 8750,
+          "clinicalPharmacists": 1.35,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 9240
+        },
+        "complete": {
+          "totalPrice": 115500,
+          "monthlyPrice": 9625,
+          "clinicalPharmacists": 1.45,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 10080
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 4400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 66000,
+          "monthlyPrice": 5500,
+          "clinicalPharmacists": 0.85,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 8800
+        },
+        "core": {
+          "totalPrice": 110000,
+          "monthlyPrice": 9167,
+          "clinicalPharmacists": 1.4,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 9680
+        },
+        "complete": {
+          "totalPrice": 121000,
+          "monthlyPrice": 10083,
+          "clinicalPharmacists": 1.55,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 10560
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 4600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 69000,
+          "monthlyPrice": 5750,
+          "clinicalPharmacists": 0.85,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 9200
+        },
+        "core": {
+          "totalPrice": 115000,
+          "monthlyPrice": 9583,
+          "clinicalPharmacists": 1.45,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 10120
+        },
+        "complete": {
+          "totalPrice": 126500,
+          "monthlyPrice": 10542,
+          "clinicalPharmacists": 1.6,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 11040
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 4800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 72000,
+          "monthlyPrice": 6000,
+          "clinicalPharmacists": 0.9,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 9600
+        },
+        "core": {
+          "totalPrice": 120000,
+          "monthlyPrice": 10000,
+          "clinicalPharmacists": 1.5,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 10560
+        },
+        "complete": {
+          "totalPrice": 132000,
+          "monthlyPrice": 11000,
+          "clinicalPharmacists": 1.65,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 11520
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 5000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 75000,
+          "monthlyPrice": 6250,
+          "clinicalPharmacists": 0.95,
+          "careCoordinators": 0.3,
+          "appointmentsSaved": 10000
+        },
+        "core": {
+          "totalPrice": 125000,
+          "monthlyPrice": 10417,
+          "clinicalPharmacists": 1.6,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 11000
+        },
+        "complete": {
+          "totalPrice": 137500,
+          "monthlyPrice": 11458,
+          "clinicalPharmacists": 1.75,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 12000
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 5200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 78000,
+          "monthlyPrice": 6500,
+          "clinicalPharmacists": 1,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 10400
+        },
+        "core": {
+          "totalPrice": 130000,
+          "monthlyPrice": 10833,
+          "clinicalPharmacists": 1.65,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 11440
+        },
+        "complete": {
+          "totalPrice": 143000,
+          "monthlyPrice": 11917,
+          "clinicalPharmacists": 1.8,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 12480
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 5400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 81000,
+          "monthlyPrice": 6750,
+          "clinicalPharmacists": 1.05,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 10800
+        },
+        "core": {
+          "totalPrice": 135000,
+          "monthlyPrice": 11250,
+          "clinicalPharmacists": 1.7,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 11880
+        },
+        "complete": {
+          "totalPrice": 148500,
+          "monthlyPrice": 12375,
+          "clinicalPharmacists": 1.9,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 12960
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 5600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 84000,
+          "monthlyPrice": 7000,
+          "clinicalPharmacists": 1.05,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 11200
+        },
+        "core": {
+          "totalPrice": 140000,
+          "monthlyPrice": 11667,
+          "clinicalPharmacists": 1.75,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 12320
+        },
+        "complete": {
+          "totalPrice": 154000,
+          "monthlyPrice": 12833,
+          "clinicalPharmacists": 1.95,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 13440
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 5800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 87000,
+          "monthlyPrice": 7250,
+          "clinicalPharmacists": 1.1,
+          "careCoordinators": 0.35,
+          "appointmentsSaved": 11600
+        },
+        "core": {
+          "totalPrice": 145000,
+          "monthlyPrice": 12083,
+          "clinicalPharmacists": 1.85,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 12760
+        },
+        "complete": {
+          "totalPrice": 159500,
+          "monthlyPrice": 13292,
+          "clinicalPharmacists": 2,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 13920
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 6000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 90000,
+          "monthlyPrice": 7500,
+          "clinicalPharmacists": 1.15,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 12000
+        },
+        "core": {
+          "totalPrice": 150000,
+          "monthlyPrice": 12500,
+          "clinicalPharmacists": 1.9,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 13200
+        },
+        "complete": {
+          "totalPrice": 165000,
+          "monthlyPrice": 13750,
+          "clinicalPharmacists": 2.1,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 14400
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 6200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 93000,
+          "monthlyPrice": 7750,
+          "clinicalPharmacists": 1.2,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 12400
+        },
+        "core": {
+          "totalPrice": 155000,
+          "monthlyPrice": 12917,
+          "clinicalPharmacists": 1.95,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 13640
+        },
+        "complete": {
+          "totalPrice": 170500,
+          "monthlyPrice": 14208,
+          "clinicalPharmacists": 2.15,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 14880
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 6400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 96000,
+          "monthlyPrice": 8000,
+          "clinicalPharmacists": 1.2,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 12800
+        },
+        "core": {
+          "totalPrice": 160000,
+          "monthlyPrice": 13333,
+          "clinicalPharmacists": 2,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 14080
+        },
+        "complete": {
+          "totalPrice": 176000,
+          "monthlyPrice": 14667,
+          "clinicalPharmacists": 2.25,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 15360
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 6600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 99000,
+          "monthlyPrice": 8250,
+          "clinicalPharmacists": 1.25,
+          "careCoordinators": 0.4,
+          "appointmentsSaved": 13200
+        },
+        "core": {
+          "totalPrice": 165000,
+          "monthlyPrice": 13750,
+          "clinicalPharmacists": 2.1,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 14520
+        },
+        "complete": {
+          "totalPrice": 181500,
+          "monthlyPrice": 15125,
+          "clinicalPharmacists": 2.3,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 15840
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 6800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 102000,
+          "monthlyPrice": 8500,
+          "clinicalPharmacists": 1.3,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 13600
+        },
+        "core": {
+          "totalPrice": 170000,
+          "monthlyPrice": 14167,
+          "clinicalPharmacists": 2.15,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 14960
+        },
+        "complete": {
+          "totalPrice": 187000,
+          "monthlyPrice": 15583,
+          "clinicalPharmacists": 2.35,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 16320
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 7000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 105000,
+          "monthlyPrice": 8750,
+          "clinicalPharmacists": 1.35,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 14000
+        },
+        "core": {
+          "totalPrice": 175000,
+          "monthlyPrice": 14583,
+          "clinicalPharmacists": 2.2,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 15400
+        },
+        "complete": {
+          "totalPrice": 192500,
+          "monthlyPrice": 16042,
+          "clinicalPharmacists": 2.45,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 16800
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 7200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 108000,
+          "monthlyPrice": 9000,
+          "clinicalPharmacists": 1.35,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 14400
+        },
+        "core": {
+          "totalPrice": 180000,
+          "monthlyPrice": 15000,
+          "clinicalPharmacists": 2.3,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 15840
+        },
+        "complete": {
+          "totalPrice": 198000,
+          "monthlyPrice": 16500,
+          "clinicalPharmacists": 2.5,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 17280
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 7400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 111000,
+          "monthlyPrice": 9250,
+          "clinicalPharmacists": 1.4,
+          "careCoordinators": 0.45,
+          "appointmentsSaved": 14800
+        },
+        "core": {
+          "totalPrice": 185000,
+          "monthlyPrice": 15417,
+          "clinicalPharmacists": 2.35,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 16280
+        },
+        "complete": {
+          "totalPrice": 203500,
+          "monthlyPrice": 16958,
+          "clinicalPharmacists": 2.6,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 17760
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 7600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 114000,
+          "monthlyPrice": 9500,
+          "clinicalPharmacists": 1.45,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 15200
+        },
+        "core": {
+          "totalPrice": 190000,
+          "monthlyPrice": 15833,
+          "clinicalPharmacists": 2.4,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 16720
+        },
+        "complete": {
+          "totalPrice": 209000,
+          "monthlyPrice": 17417,
+          "clinicalPharmacists": 2.65,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 18240
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 7800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 117000,
+          "monthlyPrice": 9750,
+          "clinicalPharmacists": 1.5,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 15600
+        },
+        "core": {
+          "totalPrice": 195000,
+          "monthlyPrice": 16250,
+          "clinicalPharmacists": 2.45,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 17160
+        },
+        "complete": {
+          "totalPrice": 214500,
+          "monthlyPrice": 17875,
+          "clinicalPharmacists": 2.7,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 18720
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 8000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 120000,
+          "monthlyPrice": 10000,
+          "clinicalPharmacists": 1.5,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 16000
+        },
+        "core": {
+          "totalPrice": 200000,
+          "monthlyPrice": 16667,
+          "clinicalPharmacists": 2.55,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 17600
+        },
+        "complete": {
+          "totalPrice": 220000,
+          "monthlyPrice": 18333,
+          "clinicalPharmacists": 2.8,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 19200
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 8200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 123000,
+          "monthlyPrice": 10250,
+          "clinicalPharmacists": 1.55,
+          "careCoordinators": 0.5,
+          "appointmentsSaved": 16400
+        },
+        "core": {
+          "totalPrice": 205000,
+          "monthlyPrice": 17083,
+          "clinicalPharmacists": 2.6,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 18040
+        },
+        "complete": {
+          "totalPrice": 225500,
+          "monthlyPrice": 18792,
+          "clinicalPharmacists": 2.85,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 19680
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 8400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 126000,
+          "monthlyPrice": 10500,
+          "clinicalPharmacists": 1.6,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 16800
+        },
+        "core": {
+          "totalPrice": 210000,
+          "monthlyPrice": 17500,
+          "clinicalPharmacists": 2.65,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 18480
+        },
+        "complete": {
+          "totalPrice": 231000,
+          "monthlyPrice": 19250,
+          "clinicalPharmacists": 2.9,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 20160
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 8600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 129000,
+          "monthlyPrice": 10750,
+          "clinicalPharmacists": 1.65,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 17200
+        },
+        "core": {
+          "totalPrice": 215000,
+          "monthlyPrice": 17917,
+          "clinicalPharmacists": 2.7,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 18920
+        },
+        "complete": {
+          "totalPrice": 236500,
+          "monthlyPrice": 19708,
+          "clinicalPharmacists": 3,
+          "careCoordinators": 1,
+          "appointmentsSaved": 20640
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 8800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 132000,
+          "monthlyPrice": 11000,
+          "clinicalPharmacists": 1.65,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 17600
+        },
+        "core": {
+          "totalPrice": 220000,
+          "monthlyPrice": 18333,
+          "clinicalPharmacists": 2.8,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 19360
+        },
+        "complete": {
+          "totalPrice": 242000,
+          "monthlyPrice": 20167,
+          "clinicalPharmacists": 3.05,
+          "careCoordinators": 1,
+          "appointmentsSaved": 21120
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 9000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 135000,
+          "monthlyPrice": 11250,
+          "clinicalPharmacists": 1.7,
+          "careCoordinators": 0.55,
+          "appointmentsSaved": 18000
+        },
+        "core": {
+          "totalPrice": 225000,
+          "monthlyPrice": 18750,
+          "clinicalPharmacists": 2.85,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 19800
+        },
+        "complete": {
+          "totalPrice": 247500,
+          "monthlyPrice": 20625,
+          "clinicalPharmacists": 3.15,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 21600
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 9200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 138000,
+          "monthlyPrice": 11500,
+          "clinicalPharmacists": 1.75,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 18400
+        },
+        "core": {
+          "totalPrice": 230000,
+          "monthlyPrice": 19167,
+          "clinicalPharmacists": 2.9,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 20240
+        },
+        "complete": {
+          "totalPrice": 253000,
+          "monthlyPrice": 21083,
+          "clinicalPharmacists": 3.2,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 22080
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 9400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 141000,
+          "monthlyPrice": 11750,
+          "clinicalPharmacists": 1.8,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 18800
+        },
+        "core": {
+          "totalPrice": 235000,
+          "monthlyPrice": 19583,
+          "clinicalPharmacists": 2.95,
+          "careCoordinators": 1,
+          "appointmentsSaved": 20680
+        },
+        "complete": {
+          "totalPrice": 258500,
+          "monthlyPrice": 21542,
+          "clinicalPharmacists": 3.25,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 22560
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 9600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 144000,
+          "monthlyPrice": 12000,
+          "clinicalPharmacists": 1.8,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 19200
+        },
+        "core": {
+          "totalPrice": 240000,
+          "monthlyPrice": 20000,
+          "clinicalPharmacists": 3.05,
+          "careCoordinators": 1,
+          "appointmentsSaved": 21120
+        },
+        "complete": {
+          "totalPrice": 264000,
+          "monthlyPrice": 22000,
+          "clinicalPharmacists": 3.35,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 23040
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 9800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 147000,
+          "monthlyPrice": 12250,
+          "clinicalPharmacists": 1.85,
+          "careCoordinators": 0.6,
+          "appointmentsSaved": 19600
+        },
+        "core": {
+          "totalPrice": 245000,
+          "monthlyPrice": 20417,
+          "clinicalPharmacists": 3.1,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 21560
+        },
+        "complete": {
+          "totalPrice": 269500,
+          "monthlyPrice": 22458,
+          "clinicalPharmacists": 3.4,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 23520
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 10000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 150000,
+          "monthlyPrice": 12500,
+          "clinicalPharmacists": 1.9,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 20000
+        },
+        "core": {
+          "totalPrice": 250000,
+          "monthlyPrice": 20833,
+          "clinicalPharmacists": 3.15,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 22000
+        },
+        "complete": {
+          "totalPrice": 275000,
+          "monthlyPrice": 22917,
+          "clinicalPharmacists": 3.5,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 24000
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 10200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 153000,
+          "monthlyPrice": 12750,
+          "clinicalPharmacists": 1.95,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 20400
+        },
+        "core": {
+          "totalPrice": 255000,
+          "monthlyPrice": 21250,
+          "clinicalPharmacists": 3.25,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 22440
+        },
+        "complete": {
+          "totalPrice": 280500,
+          "monthlyPrice": 23375,
+          "clinicalPharmacists": 3.55,
+          "careCoordinators": 1.2,
+          "appointmentsSaved": 24480
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 10400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 156000,
+          "monthlyPrice": 13000,
+          "clinicalPharmacists": 1.95,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 20800
+        },
+        "core": {
+          "totalPrice": 260000,
+          "monthlyPrice": 21667,
+          "clinicalPharmacists": 3.3,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 22880
+        },
+        "complete": {
+          "totalPrice": 286000,
+          "monthlyPrice": 23833,
+          "clinicalPharmacists": 3.6,
+          "careCoordinators": 1.2,
+          "appointmentsSaved": 24960
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 10600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 159000,
+          "monthlyPrice": 13250,
+          "clinicalPharmacists": 2,
+          "careCoordinators": 0.65,
+          "appointmentsSaved": 21200
+        },
+        "core": {
+          "totalPrice": 265000,
+          "monthlyPrice": 22083,
+          "clinicalPharmacists": 3.35,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 23320
+        },
+        "complete": {
+          "totalPrice": 291500,
+          "monthlyPrice": 24292,
+          "clinicalPharmacists": 3.7,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 25440
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 10800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 162000,
+          "monthlyPrice": 13500,
+          "clinicalPharmacists": 2.05,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 21600
+        },
+        "core": {
+          "totalPrice": 270000,
+          "monthlyPrice": 22500,
+          "clinicalPharmacists": 3.4,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 23760
+        },
+        "complete": {
+          "totalPrice": 297000,
+          "monthlyPrice": 24750,
+          "clinicalPharmacists": 3.75,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 25920
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 11000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 165000,
+          "monthlyPrice": 13750,
+          "clinicalPharmacists": 2.1,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 22000
+        },
+        "core": {
+          "totalPrice": 275000,
+          "monthlyPrice": 22917,
+          "clinicalPharmacists": 3.5,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 24200
+        },
+        "complete": {
+          "totalPrice": 302500,
+          "monthlyPrice": 25208,
+          "clinicalPharmacists": 3.85,
+          "careCoordinators": 1.3,
+          "appointmentsSaved": 26400
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 11200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 168000,
+          "monthlyPrice": 14000,
+          "clinicalPharmacists": 2.15,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 22400
+        },
+        "core": {
+          "totalPrice": 280000,
+          "monthlyPrice": 23333,
+          "clinicalPharmacists": 3.55,
+          "careCoordinators": 1.2,
+          "appointmentsSaved": 24640
+        },
+        "complete": {
+          "totalPrice": 308000,
+          "monthlyPrice": 25667,
+          "clinicalPharmacists": 3.9,
+          "careCoordinators": 1.3,
+          "appointmentsSaved": 26880
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 11400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 171000,
+          "monthlyPrice": 14250,
+          "clinicalPharmacists": 2.15,
+          "careCoordinators": 0.7,
+          "appointmentsSaved": 22800
+        },
+        "core": {
+          "totalPrice": 285000,
+          "monthlyPrice": 23750,
+          "clinicalPharmacists": 3.6,
+          "careCoordinators": 1.2,
+          "appointmentsSaved": 25080
+        },
+        "complete": {
+          "totalPrice": 313500,
+          "monthlyPrice": 26125,
+          "clinicalPharmacists": 3.95,
+          "careCoordinators": 1.3,
+          "appointmentsSaved": 27360
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 11600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 174000,
+          "monthlyPrice": 14500,
+          "clinicalPharmacists": 2.2,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 23200
+        },
+        "core": {
+          "totalPrice": 290000,
+          "monthlyPrice": 24167,
+          "clinicalPharmacists": 3.65,
+          "careCoordinators": 1.2,
+          "appointmentsSaved": 25520
+        },
+        "complete": {
+          "totalPrice": 319000,
+          "monthlyPrice": 26583,
+          "clinicalPharmacists": 4.05,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 27840
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 11800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 177000,
+          "monthlyPrice": 14750,
+          "clinicalPharmacists": 2.25,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 23600
+        },
+        "core": {
+          "totalPrice": 295000,
+          "monthlyPrice": 24583,
+          "clinicalPharmacists": 3.75,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 25960
+        },
+        "complete": {
+          "totalPrice": 324500,
+          "monthlyPrice": 27042,
+          "clinicalPharmacists": 4.1,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 28320
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 12000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 180000,
+          "monthlyPrice": 15000,
+          "clinicalPharmacists": 2.3,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 24000
+        },
+        "core": {
+          "totalPrice": 300000,
+          "monthlyPrice": 25000,
+          "clinicalPharmacists": 3.8,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 26400
+        },
+        "complete": {
+          "totalPrice": 330000,
+          "monthlyPrice": 27500,
+          "clinicalPharmacists": 4.2,
+          "careCoordinators": 1.4,
+          "appointmentsSaved": 28800
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 12200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 183000,
+          "monthlyPrice": 15250,
+          "clinicalPharmacists": 2.3,
+          "careCoordinators": 0.75,
+          "appointmentsSaved": 24400
+        },
+        "core": {
+          "totalPrice": 305000,
+          "monthlyPrice": 25417,
+          "clinicalPharmacists": 3.85,
+          "careCoordinators": 1.3,
+          "appointmentsSaved": 26840
+        },
+        "complete": {
+          "totalPrice": 335500,
+          "monthlyPrice": 27958,
+          "clinicalPharmacists": 4.25,
+          "careCoordinators": 1.4,
+          "appointmentsSaved": 29280
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 12400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 186000,
+          "monthlyPrice": 15500,
+          "clinicalPharmacists": 2.35,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 24800
+        },
+        "core": {
+          "totalPrice": 310000,
+          "monthlyPrice": 25833,
+          "clinicalPharmacists": 3.9,
+          "careCoordinators": 1.3,
+          "appointmentsSaved": 27280
+        },
+        "complete": {
+          "totalPrice": 341000,
+          "monthlyPrice": 28417,
+          "clinicalPharmacists": 4.3,
+          "careCoordinators": 1.45,
+          "appointmentsSaved": 29760
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 12600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 189000,
+          "monthlyPrice": 15750,
+          "clinicalPharmacists": 2.4,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 25200
+        },
+        "core": {
+          "totalPrice": 315000,
+          "monthlyPrice": 26250,
+          "clinicalPharmacists": 4,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 27720
+        },
+        "complete": {
+          "totalPrice": 346500,
+          "monthlyPrice": 28875,
+          "clinicalPharmacists": 4.4,
+          "careCoordinators": 1.45,
+          "appointmentsSaved": 30240
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 12800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 192000,
+          "monthlyPrice": 16000,
+          "clinicalPharmacists": 2.45,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 25600
+        },
+        "core": {
+          "totalPrice": 320000,
+          "monthlyPrice": 26667,
+          "clinicalPharmacists": 4.05,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 28160
+        },
+        "complete": {
+          "totalPrice": 352000,
+          "monthlyPrice": 29333,
+          "clinicalPharmacists": 4.45,
+          "careCoordinators": 1.5,
+          "appointmentsSaved": 30720
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 13000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 195000,
+          "monthlyPrice": 16250,
+          "clinicalPharmacists": 2.45,
+          "careCoordinators": 0.8,
+          "appointmentsSaved": 26000
+        },
+        "core": {
+          "totalPrice": 325000,
+          "monthlyPrice": 27083,
+          "clinicalPharmacists": 4.1,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 28600
+        },
+        "complete": {
+          "totalPrice": 357500,
+          "monthlyPrice": 29792,
+          "clinicalPharmacists": 4.5,
+          "careCoordinators": 1.5,
+          "appointmentsSaved": 31200
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 13200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 198000,
+          "monthlyPrice": 16500,
+          "clinicalPharmacists": 2.5,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 26400
+        },
+        "core": {
+          "totalPrice": 330000,
+          "monthlyPrice": 27500,
+          "clinicalPharmacists": 4.2,
+          "careCoordinators": 1.4,
+          "appointmentsSaved": 29040
+        },
+        "complete": {
+          "totalPrice": 363000,
+          "monthlyPrice": 30250,
+          "clinicalPharmacists": 4.6,
+          "careCoordinators": 1.55,
+          "appointmentsSaved": 31680
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 13400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 201000,
+          "monthlyPrice": 16750,
+          "clinicalPharmacists": 2.55,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 26800
+        },
+        "core": {
+          "totalPrice": 335000,
+          "monthlyPrice": 27917,
+          "clinicalPharmacists": 4.25,
+          "careCoordinators": 1.4,
+          "appointmentsSaved": 29480
+        },
+        "complete": {
+          "totalPrice": 368500,
+          "monthlyPrice": 30708,
+          "clinicalPharmacists": 4.65,
+          "careCoordinators": 1.55,
+          "appointmentsSaved": 32160
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 13600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 204000,
+          "monthlyPrice": 17000,
+          "clinicalPharmacists": 2.6,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 27200
+        },
+        "core": {
+          "totalPrice": 340000,
+          "monthlyPrice": 28333,
+          "clinicalPharmacists": 4.3,
+          "careCoordinators": 1.45,
+          "appointmentsSaved": 29920
+        },
+        "complete": {
+          "totalPrice": 374000,
+          "monthlyPrice": 31167,
+          "clinicalPharmacists": 4.75,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 32640
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 13800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 207000,
+          "monthlyPrice": 17250,
+          "clinicalPharmacists": 2.6,
+          "careCoordinators": 0.85,
+          "appointmentsSaved": 27600
+        },
+        "core": {
+          "totalPrice": 345000,
+          "monthlyPrice": 28750,
+          "clinicalPharmacists": 4.35,
+          "careCoordinators": 1.45,
+          "appointmentsSaved": 30360
+        },
+        "complete": {
+          "totalPrice": 379500,
+          "monthlyPrice": 31625,
+          "clinicalPharmacists": 4.8,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 33120
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 14000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 210000,
+          "monthlyPrice": 17500,
+          "clinicalPharmacists": 2.65,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 28000
+        },
+        "core": {
+          "totalPrice": 350000,
+          "monthlyPrice": 29167,
+          "clinicalPharmacists": 4.45,
+          "careCoordinators": 1.5,
+          "appointmentsSaved": 30800
+        },
+        "complete": {
+          "totalPrice": 385000,
+          "monthlyPrice": 32083,
+          "clinicalPharmacists": 4.85,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 33600
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 14200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 213000,
+          "monthlyPrice": 17750,
+          "clinicalPharmacists": 2.7,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 28400
+        },
+        "core": {
+          "totalPrice": 355000,
+          "monthlyPrice": 29583,
+          "clinicalPharmacists": 4.5,
+          "careCoordinators": 1.5,
+          "appointmentsSaved": 31240
+        },
+        "complete": {
+          "totalPrice": 390500,
+          "monthlyPrice": 32542,
+          "clinicalPharmacists": 4.95,
+          "careCoordinators": 1.65,
+          "appointmentsSaved": 34080
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 14400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 216000,
+          "monthlyPrice": 18000,
+          "clinicalPharmacists": 2.75,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 28800
+        },
+        "core": {
+          "totalPrice": 360000,
+          "monthlyPrice": 30000,
+          "clinicalPharmacists": 4.55,
+          "careCoordinators": 1.5,
+          "appointmentsSaved": 31680
+        },
+        "complete": {
+          "totalPrice": 396000,
+          "monthlyPrice": 33000,
+          "clinicalPharmacists": 5,
+          "careCoordinators": 1.65,
+          "appointmentsSaved": 34560
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 14600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 219000,
+          "monthlyPrice": 18250,
+          "clinicalPharmacists": 2.75,
+          "careCoordinators": 0.9,
+          "appointmentsSaved": 29200
+        },
+        "core": {
+          "totalPrice": 365000,
+          "monthlyPrice": 30417,
+          "clinicalPharmacists": 4.6,
+          "careCoordinators": 1.55,
+          "appointmentsSaved": 32120
+        },
+        "complete": {
+          "totalPrice": 401500,
+          "monthlyPrice": 33458,
+          "clinicalPharmacists": 5.1,
+          "careCoordinators": 1.7,
+          "appointmentsSaved": 35040
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 14800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 222000,
+          "monthlyPrice": 18500,
+          "clinicalPharmacists": 2.8,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 29600
+        },
+        "core": {
+          "totalPrice": 370000,
+          "monthlyPrice": 30833,
+          "clinicalPharmacists": 4.7,
+          "careCoordinators": 1.55,
+          "appointmentsSaved": 32560
+        },
+        "complete": {
+          "totalPrice": 407000,
+          "monthlyPrice": 33917,
+          "clinicalPharmacists": 5.15,
+          "careCoordinators": 1.7,
+          "appointmentsSaved": 35520
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 15000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 225000,
+          "monthlyPrice": 18750,
+          "clinicalPharmacists": 2.85,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 30000
+        },
+        "core": {
+          "totalPrice": 375000,
+          "monthlyPrice": 31250,
+          "clinicalPharmacists": 4.75,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 33000
+        },
+        "complete": {
+          "totalPrice": 412500,
+          "monthlyPrice": 34375,
+          "clinicalPharmacists": 5.2,
+          "careCoordinators": 1.75,
+          "appointmentsSaved": 36000
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 15200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 228000,
+          "monthlyPrice": 19000,
+          "clinicalPharmacists": 2.9,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 30400
+        },
+        "core": {
+          "totalPrice": 380000,
+          "monthlyPrice": 31667,
+          "clinicalPharmacists": 4.8,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 33440
+        },
+        "complete": {
+          "totalPrice": 418000,
+          "monthlyPrice": 34833,
+          "clinicalPharmacists": 5.3,
+          "careCoordinators": 1.75,
+          "appointmentsSaved": 36480
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 15400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 231000,
+          "monthlyPrice": 19250,
+          "clinicalPharmacists": 2.9,
+          "careCoordinators": 0.95,
+          "appointmentsSaved": 30800
+        },
+        "core": {
+          "totalPrice": 385000,
+          "monthlyPrice": 32083,
+          "clinicalPharmacists": 4.85,
+          "careCoordinators": 1.6,
+          "appointmentsSaved": 33880
+        },
+        "complete": {
+          "totalPrice": 423500,
+          "monthlyPrice": 35292,
+          "clinicalPharmacists": 5.35,
+          "careCoordinators": 1.8,
+          "appointmentsSaved": 36960
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 15600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 234000,
+          "monthlyPrice": 19500,
+          "clinicalPharmacists": 2.95,
+          "careCoordinators": 1,
+          "appointmentsSaved": 31200
+        },
+        "core": {
+          "totalPrice": 390000,
+          "monthlyPrice": 32500,
+          "clinicalPharmacists": 4.95,
+          "careCoordinators": 1.65,
+          "appointmentsSaved": 34320
+        },
+        "complete": {
+          "totalPrice": 429000,
+          "monthlyPrice": 35750,
+          "clinicalPharmacists": 5.45,
+          "careCoordinators": 1.8,
+          "appointmentsSaved": 37440
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 15800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 237000,
+          "monthlyPrice": 19750,
+          "clinicalPharmacists": 3,
+          "careCoordinators": 1,
+          "appointmentsSaved": 31600
+        },
+        "core": {
+          "totalPrice": 395000,
+          "monthlyPrice": 32917,
+          "clinicalPharmacists": 5,
+          "careCoordinators": 1.65,
+          "appointmentsSaved": 34760
+        },
+        "complete": {
+          "totalPrice": 434500,
+          "monthlyPrice": 36208,
+          "clinicalPharmacists": 5.5,
+          "careCoordinators": 1.85,
+          "appointmentsSaved": 37920
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 16000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 240000,
+          "monthlyPrice": 20000,
+          "clinicalPharmacists": 3.05,
+          "careCoordinators": 1,
+          "appointmentsSaved": 32000
+        },
+        "core": {
+          "totalPrice": 400000,
+          "monthlyPrice": 33333,
+          "clinicalPharmacists": 5.05,
+          "careCoordinators": 1.7,
+          "appointmentsSaved": 35200
+        },
+        "complete": {
+          "totalPrice": 440000,
+          "monthlyPrice": 36667,
+          "clinicalPharmacists": 5.55,
+          "careCoordinators": 1.85,
+          "appointmentsSaved": 38400
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 16200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 243000,
+          "monthlyPrice": 20250,
+          "clinicalPharmacists": 3.1,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 32400
+        },
+        "core": {
+          "totalPrice": 405000,
+          "monthlyPrice": 33750,
+          "clinicalPharmacists": 5.15,
+          "careCoordinators": 1.7,
+          "appointmentsSaved": 35640
+        },
+        "complete": {
+          "totalPrice": 445500,
+          "monthlyPrice": 37125,
+          "clinicalPharmacists": 5.65,
+          "careCoordinators": 1.9,
+          "appointmentsSaved": 38880
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 16400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 246000,
+          "monthlyPrice": 20500,
+          "clinicalPharmacists": 3.1,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 32800
+        },
+        "core": {
+          "totalPrice": 410000,
+          "monthlyPrice": 34167,
+          "clinicalPharmacists": 5.2,
+          "careCoordinators": 1.75,
+          "appointmentsSaved": 36080
+        },
+        "complete": {
+          "totalPrice": 451000,
+          "monthlyPrice": 37583,
+          "clinicalPharmacists": 5.7,
+          "careCoordinators": 1.9,
+          "appointmentsSaved": 39360
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 16600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 249000,
+          "monthlyPrice": 20750,
+          "clinicalPharmacists": 3.15,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 33200
+        },
+        "core": {
+          "totalPrice": 415000,
+          "monthlyPrice": 34583,
+          "clinicalPharmacists": 5.25,
+          "careCoordinators": 1.75,
+          "appointmentsSaved": 36520
+        },
+        "complete": {
+          "totalPrice": 456500,
+          "monthlyPrice": 38042,
+          "clinicalPharmacists": 5.8,
+          "careCoordinators": 1.95,
+          "appointmentsSaved": 39840
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 16800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 252000,
+          "monthlyPrice": 21000,
+          "clinicalPharmacists": 3.2,
+          "careCoordinators": 1.05,
+          "appointmentsSaved": 33600
+        },
+        "core": {
+          "totalPrice": 420000,
+          "monthlyPrice": 35000,
+          "clinicalPharmacists": 5.3,
+          "careCoordinators": 1.75,
+          "appointmentsSaved": 36960
+        },
+        "complete": {
+          "totalPrice": 462000,
+          "monthlyPrice": 38500,
+          "clinicalPharmacists": 5.85,
+          "careCoordinators": 1.95,
+          "appointmentsSaved": 40320
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 17000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 255000,
+          "monthlyPrice": 21250,
+          "clinicalPharmacists": 3.25,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 34000
+        },
+        "core": {
+          "totalPrice": 425000,
+          "monthlyPrice": 35417,
+          "clinicalPharmacists": 5.4,
+          "careCoordinators": 1.8,
+          "appointmentsSaved": 37400
+        },
+        "complete": {
+          "totalPrice": 467500,
+          "monthlyPrice": 38958,
+          "clinicalPharmacists": 5.9,
+          "careCoordinators": 1.95,
+          "appointmentsSaved": 40800
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 17200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 258000,
+          "monthlyPrice": 21500,
+          "clinicalPharmacists": 3.25,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 34400
+        },
+        "core": {
+          "totalPrice": 430000,
+          "monthlyPrice": 35833,
+          "clinicalPharmacists": 5.45,
+          "careCoordinators": 1.8,
+          "appointmentsSaved": 37840
+        },
+        "complete": {
+          "totalPrice": 473000,
+          "monthlyPrice": 39417,
+          "clinicalPharmacists": 6,
+          "careCoordinators": 2,
+          "appointmentsSaved": 41280
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 17400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 261000,
+          "monthlyPrice": 21750,
+          "clinicalPharmacists": 3.3,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 34800
+        },
+        "core": {
+          "totalPrice": 435000,
+          "monthlyPrice": 36250,
+          "clinicalPharmacists": 5.5,
+          "careCoordinators": 1.85,
+          "appointmentsSaved": 38280
+        },
+        "complete": {
+          "totalPrice": 478500,
+          "monthlyPrice": 39875,
+          "clinicalPharmacists": 6.05,
+          "careCoordinators": 2,
+          "appointmentsSaved": 41760
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 17600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 264000,
+          "monthlyPrice": 22000,
+          "clinicalPharmacists": 3.35,
+          "careCoordinators": 1.1,
+          "appointmentsSaved": 35200
+        },
+        "core": {
+          "totalPrice": 440000,
+          "monthlyPrice": 36667,
+          "clinicalPharmacists": 5.55,
+          "careCoordinators": 1.85,
+          "appointmentsSaved": 38720
+        },
+        "complete": {
+          "totalPrice": 484000,
+          "monthlyPrice": 40333,
+          "clinicalPharmacists": 6.1,
+          "careCoordinators": 2.05,
+          "appointmentsSaved": 42240
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 17800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 267000,
+          "monthlyPrice": 22250,
+          "clinicalPharmacists": 3.4,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 35600
+        },
+        "core": {
+          "totalPrice": 445000,
+          "monthlyPrice": 37083,
+          "clinicalPharmacists": 5.65,
+          "careCoordinators": 1.9,
+          "appointmentsSaved": 39160
+        },
+        "complete": {
+          "totalPrice": 489500,
+          "monthlyPrice": 40792,
+          "clinicalPharmacists": 6.2,
+          "careCoordinators": 2.05,
+          "appointmentsSaved": 42720
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 18000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 270000,
+          "monthlyPrice": 22500,
+          "clinicalPharmacists": 3.40,
+          "careCoordinators": 1.15,
+          "appointmentsSaved": 36000
+        },
+        "core": {
+          "totalPrice": 450000,
+          "monthlyPrice": 37500,
+          "clinicalPharmacists": 5.70,
+          "careCoordinators": 1.90,
+          "appointmentsSaved": 39600
+        },
+        "complete": {
+          "totalPrice": 495000,
+          "monthlyPrice": 41250,
+          "clinicalPharmacists": 6.25,
+          "careCoordinators": 2.10,
+          "appointmentsSaved": 43200
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 18200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 273000,
+          "monthlyPrice": 22750,
+          "clinicalPharmacists": 3.45,
+          "careCoordinators": 1.20,
+          "appointmentsSaved": 36400
+        },
+        "core": {
+          "totalPrice": 455000,
+          "monthlyPrice": 37917,
+          "clinicalPharmacists": 5.80,
+          "careCoordinators": 1.95,
+          "appointmentsSaved": 40040
+        },
+        "complete": {
+          "totalPrice": 500500,
+          "monthlyPrice": 41708,
+          "clinicalPharmacists": 6.35,
+          "careCoordinators": 2.10,
+          "appointmentsSaved": 43680
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 18400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 276000,
+          "monthlyPrice": 23000,
+          "clinicalPharmacists": 3.45,
+          "careCoordinators": 1.20,
+          "appointmentsSaved": 36800
+        },
+        "core": {
+          "totalPrice": 460000,
+          "monthlyPrice": 38333,
+          "clinicalPharmacists": 5.85,
+          "careCoordinators": 1.95,
+          "appointmentsSaved": 40480
+        },
+        "complete": {
+          "totalPrice": 506000,
+          "monthlyPrice": 42167,
+          "clinicalPharmacists": 6.40,
+          "careCoordinators": 2.15,
+          "appointmentsSaved": 44160
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 18600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 279000,
+          "monthlyPrice": 23250,
+          "clinicalPharmacists": 3.50,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 37200
+        },
+        "core": {
+          "totalPrice": 465000,
+          "monthlyPrice": 38750,
+          "clinicalPharmacists": 5.95,
+          "careCoordinators": 2.00,
+          "appointmentsSaved": 40920
+        },
+        "complete": {
+          "totalPrice": 511500,
+          "monthlyPrice": 42625,
+          "clinicalPharmacists": 6.50,
+          "careCoordinators": 2.15,
+          "appointmentsSaved": 44640
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 18800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 282000,
+          "monthlyPrice": 23500,
+          "clinicalPharmacists": 3.50,
+          "careCoordinators": 1.25,
+          "appointmentsSaved": 37600
+        },
+        "core": {
+          "totalPrice": 470000,
+          "monthlyPrice": 39167,
+          "clinicalPharmacists": 6.00,
+          "careCoordinators": 2.00,
+          "appointmentsSaved": 41360
+        },
+        "complete": {
+          "totalPrice": 517000,
+          "monthlyPrice": 43083,
+          "clinicalPharmacists": 6.55,
+          "careCoordinators": 2.20,
+          "appointmentsSaved": 45120
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 19000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 285000,
+          "monthlyPrice": 23750,
+          "clinicalPharmacists": 3.55,
+          "careCoordinators": 1.30,
+          "appointmentsSaved": 38000
+        },
+        "core": {
+          "totalPrice": 475000,
+          "monthlyPrice": 39583,
+          "clinicalPharmacists": 6.10,
+          "careCoordinators": 2.05,
+          "appointmentsSaved": 41800
+        },
+        "complete": {
+          "totalPrice": 522500,
+          "monthlyPrice": 43542,
+          "clinicalPharmacists": 6.65,
+          "careCoordinators": 2.20,
+          "appointmentsSaved": 45600
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 19200,
+      "tiers": {
+        "essential": {
+          "totalPrice": 288000,
+          "monthlyPrice": 24000,
+          "clinicalPharmacists": 3.55,
+          "careCoordinators": 1.30,
+          "appointmentsSaved": 38400
+        },
+        "core": {
+          "totalPrice": 480000,
+          "monthlyPrice": 40000,
+          "clinicalPharmacists": 6.15,
+          "careCoordinators": 2.05,
+          "appointmentsSaved": 42240
+        },
+        "complete": {
+          "totalPrice": 528000,
+          "monthlyPrice": 44000,
+          "clinicalPharmacists": 6.70,
+          "careCoordinators": 2.25,
+          "appointmentsSaved": 46080
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 19400,
+      "tiers": {
+        "essential": {
+          "totalPrice": 291000,
+          "monthlyPrice": 24250,
+          "clinicalPharmacists": 3.60,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 38800
+        },
+        "core": {
+          "totalPrice": 485000,
+          "monthlyPrice": 40417,
+          "clinicalPharmacists": 6.25,
+          "careCoordinators": 2.10,
+          "appointmentsSaved": 42680
+        },
+        "complete": {
+          "totalPrice": 533500,
+          "monthlyPrice": 44458,
+          "clinicalPharmacists": 6.80,
+          "careCoordinators": 2.25,
+          "appointmentsSaved": 46560
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 19600,
+      "tiers": {
+        "essential": {
+          "totalPrice": 294000,
+          "monthlyPrice": 24500,
+          "clinicalPharmacists": 3.60,
+          "careCoordinators": 1.35,
+          "appointmentsSaved": 39200
+        },
+        "core": {
+          "totalPrice": 490000,
+          "monthlyPrice": 40833,
+          "clinicalPharmacists": 6.30,
+          "careCoordinators": 2.10,
+          "appointmentsSaved": 43120
+        },
+        "complete": {
+          "totalPrice": 539000,
+          "monthlyPrice": 44917,
+          "clinicalPharmacists": 6.85,
+          "careCoordinators": 2.30,
+          "appointmentsSaved": 47040
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 19800,
+      "tiers": {
+        "essential": {
+          "totalPrice": 297000,
+          "monthlyPrice": 24750,
+          "clinicalPharmacists": 3.65,
+          "careCoordinators": 1.40,
+          "appointmentsSaved": 39600
+        },
+        "core": {
+          "totalPrice": 495000,
+          "monthlyPrice": 41250,
+          "clinicalPharmacists": 6.40,
+          "careCoordinators": 2.15,
+          "appointmentsSaved": 43560
+        },
+        "complete": {
+          "totalPrice": 544500,
+          "monthlyPrice": 45375,
+          "clinicalPharmacists": 6.95,
+          "careCoordinators": 2.30,
+          "appointmentsSaved": 47520
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 20000,
+      "tiers": {
+        "essential": {
+          "totalPrice": 300000,
+          "monthlyPrice": 25000,
+          "clinicalPharmacists": 3.65,
+          "careCoordinators": 1.40,
+          "appointmentsSaved": 40000
+        },
+        "core": {
+          "totalPrice": 500000,
+          "monthlyPrice": 41667,
+          "clinicalPharmacists": 6.45,
+          "careCoordinators": 2.15,
+          "appointmentsSaved": 44000
+        },
+        "complete": {
+          "totalPrice": 550000,
+          "monthlyPrice": 45833,
+          "clinicalPharmacists": 7.00,
+          "careCoordinators": 2.35,
+          "appointmentsSaved": 48000
+        }
+      }
+    },
+    {
+      "patientConditionInvites": 20000,
+      "tiers": {
+        "essential": {
+          "totalPrice": null,
+          "monthlyPrice": null,
+          "clinicalPharmacists": null,
+          "careCoordinators": null,
+          "appointmentsSaved": null
+        },
+        "core": {
+          "totalPrice": null,
+          "monthlyPrice": null,
+          "clinicalPharmacists": null,
+          "careCoordinators": null,
+          "appointmentsSaved": null
+        },
+        "complete": {
+          "totalPrice": null,
+          "monthlyPrice": null,
+          "clinicalPharmacists": null,
+          "careCoordinators": null,
+          "appointmentsSaved": null
+        }
+      }
+    }
+  ],
+  "basePricing": {
+    "essential": {
+      "basePrice": 1500,
+      "baseAppointmentsSaved": 45,
+      "cpRate": 0.25,
+      "ccRate": 0.1,
+      "description": "General Pharmacist Services"
+    },
+    "core": {
+      "basePrice": 2000,
+      "baseAppointmentsSaved": 68,
+      "cpRate": 0.3,
+      "ccRate": 0.1,
+      "description": "Long-term condition clinics"
+    },
+    "complete": {
+      "basePrice": 2250,
+      "baseAppointmentsSaved": 95,
+      "cpRate": 0.35,
+      "ccRate": 0.1,
+      "description": "Comprehensive clinical services"
+    }
+  },
+  "conditionMultipliers": {
+    "priceMultiplier": 0.05,
+    "appointmentMultiplier": 0.08
+  },
+  "listSizeFactors": [
+    {
+      "min": 0,
+      "max": 5000,
+      "factor": 0.85
+    },
+    {
+      "min": 5001,
+      "max": 10000,
+      "factor": 0.9
+    },
+    {
+      "min": 10001,
+      "max": 15000,
+      "factor": 0.95
+    },
+    {
+      "min": 15001,
+      "max": 20000,
+      "factor": 1
+    },
+    {
+      "min": 20001,
+      "max": 30000,
+      "factor": 1.05
+    },
+    {
+      "min": 30001,
+      "max": 50000,
+      "factor": 1.1
+    },
+    {
+      "min": 50001,
+      "max": 100000,
+      "factor": 1.15
+    },
+    {
+      "min": 100001,
+      "max": 999999,
+      "factor": 1.2
+    }
+  ]
+}

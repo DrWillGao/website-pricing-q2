@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvera Pricing Calculator</title>
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-sans bg-gray-50">
+  <div class="w-full px-6 sm:px-8 md:px-12 py-8 max-w-[1800px] mx-auto">
+    <div class="text-center mb-8 opacity-0 transform -translate-y-5" id="header">
+      <h1 class="text-3xl font-bold text-gray-900 inline-block border-2 border-blue-300 px-8 py-4 bg-blue-50">
+        Suvera Services Pricing Calculator
+      </h1>
+      <p class="mt-4 text-gray-600">
+        Please type in your organisation details to see how Suvera services could start supporting you today.
+      </p>
+    </div>
+    
+    <!-- Search Section -->
+    <div id="search-section" class="opacity-0">
+      <div class="relative w-full mx-auto">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search by practice name, PCN name, or ODS code..."
+          class="pl-10 py-6 w-full bg-white shadow-sm border border-gray-200 rounded-md"
+        />
+        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <i data-lucide="search" class="h-5 w-5 text-gray-400"></i>
+        </div>
+      </div>
+      
+      <!-- Search Results Container -->
+      <div id="search-results" class="hidden w-full mt-1 z-50">
+        <!-- Results will be populated by JavaScript -->
+      </div>
+    </div>
+    
+    <!-- Selected Practice Details -->
+    <div id="practice-details" class="hidden w-full opacity-0">
+      <!-- Practice details will be populated by JavaScript -->
+    </div>
+    
+    <!-- PCN Details -->
+    <div id="pcn-details" class="hidden w-full opacity-0">
+      <!-- PCN details will be populated by JavaScript -->
+    </div>
+    
+    <!-- Calculator Content -->
+    <div id="calculator-content" class="hidden w-full space-y-6 mt-6 opacity-0">
+      <div class="w-full">
+        <div class="rounded-xl overflow-hidden shadow-lg">
+          <!-- Condition Selector -->
+          <div id="condition-selector" class="w-full mx-auto overflow-hidden rounded-t-xl shadow-md bg-white border border-b-0 border-gray-200">
+            <!-- Condition selector will be populated by JavaScript -->
+          </div>
+          
+          <!-- Chart Section -->
+          <div id="chart-section" class="w-full bg-white border border-gray-200 border-b-0 p-6">
+            <!-- Chart will be populated by JavaScript -->
+          </div>
+          
+          <!-- Pricing Tiers -->
+          <div id="pricing-tiers" class="w-full bg-white border border-gray-200 rounded-b-xl p-6">
+            <!-- Pricing tiers will be populated by JavaScript -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Error logging script - helps with debugging -->
+  <script src="error-log.js"></script>
+  
+  <!-- Dependencies -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/recharts@2.12.7/umd/Recharts.min.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Data loader script - must be loaded before main script -->
+  <script src="data-loader.js"></script>
+  
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>
