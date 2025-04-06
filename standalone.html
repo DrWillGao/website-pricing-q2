@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suvera Pricing Calculator</title>
+  
+  <!-- Inline styles to avoid external CSS dependencies -->
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .header h1 {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      display: inline-block;
+      border: 2px solid #93c5fd;
+      padding: 16px 32px;
+      background-color: #eff6ff;
+    }
+    
+    .header p {
+      margin-top: 16px;
+      color: #666;
+    }
+    
+    .search-box {
+      position: relative;
+      margin-bottom: 20px;
+    }
+    
+    .search-input {
+      width: 100%;
+      padding: 12px 12px 12px 40px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    }
+    
+    .search-icon {
+      position: absolute;
+      left: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #999;
+    }
+    
+    .search-results {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      max-height: 300px;
+      overflow-y: auto;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      margin-top: 4px;
+    }
+    
+    .search-result-item {
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+      cursor: pointer;
+    }
+    
+    .search-result-item:hover {
+      background-color: #f9fafb;
+    }
+    
+    .search-result-item:last-child {
+      border-bottom: none;
+    }
+    
+    .details-card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      border: 1px solid #eee;
+    }
+    
+    .details-header {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    .details-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .details-item {
+      flex: 1;
+      min-width: 200px;
+    }
+    
+    .details-label {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .details-value {
+      font-size: 16px;
+      color: #333;
+    }
+    
+    .conditions-card {
+      background: white;
+      border-radius: 8px 8px 0 0;
+      padding: 20px;
+      border: 1px solid #eee;
+    }
+    
+    .conditions-title {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    
+    .conditions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    
+    .condition-checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .chart-section {
+      background: white;
+      padding: 20px;
+      border-left: 1px solid #eee;
+      border-right: 1px solid #eee;
+    }
+    
+    .pricing-tiers {
+      background: white;
+      border-radius: 0 0 8px 8px;
+      padding: 20px;
+      border: 1px solid #eee;
+    }
+    
+    .pricing-tier {
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #eee;
+    }
+    
+    .pricing-tier-header {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .pricing-tier-price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      margin: 10px 0;
+    }
+    
+    .pricing-tier-features {
+      margin-top: 15px;
+    }
+    
+    .pricing-tier-feature {
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+    
+    .slide-in {
+      animation: slideIn 0.6s ease-out forwards;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div id="header" class="header">
+      <h1>Suvera Services Pricing Calculator</h1>
+      <p>Please type in your organisation details to see how Suvera services could start supporting you today.</p>
+    </div>
+    
+    <div id="search-section">
+      <div class="search-box">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="search-input" class="search-input" placeholder="Search by practice name, PCN name, or ODS code...">
+      </div>
+      <div id="search-results" class="search-results" style="display: none;"></div>
+    </div>
+    
+    <div id="practice-details" class="details-card" style="display: none;"></div>
+    <div id="pcn-details" class="details-card" style="display: none;"></div>
+    
+    <div id="calculator-content" style="display: none;">
+      <div>
+        <div id="condition-selector" class="conditions-card"></div>
+        <div id="chart-section" class="chart-section"></div>
+        <div id="pricing-tiers" class="pricing-tiers"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Simple script to redirect to the full calculator -->
+  <script>
+    // Show a simple message and redirect to the full calculator
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate the header
+      setTimeout(function() {
+        document.getElementById('header').classList.add('fade-in');
+      }, 100);
+      
+      // Show search section
+      setTimeout(function() {
+        document.getElementById('search-section').classList.add('fade-in');
+      }, 300);
+      
+      // Set up search input to redirect
+      document.getElementById('search-input').addEventListener('focus', function() {
+        window.location.href = 'https://drwillgao.github.io/website-pricing-q2/';
+      });
+    });
+  </script>
+</body>
+</html>
