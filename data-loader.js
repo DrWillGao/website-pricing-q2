@@ -3,7 +3,7 @@
 
 // Define the base URL for data files
 // In production, this will be the GitHub Pages URL
-const DATA_BASE_URL = './data/';
+const DATA_BASE_URL = 'https://drwillgao.github.io/website-pricing-q2/data/';
 
 // Create a class to handle data loading
 class DataLoader {
